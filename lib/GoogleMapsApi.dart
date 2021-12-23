@@ -1,4 +1,4 @@
 class GoogleMapsApi{
 
-  String apikey = "AIzaSyCbaELHR_jnHhd3FZTaTir38Bkb0Mrwpgo";
+  String apikey = "AIzaSyC-8N7ESD9Z6kH5l2FjamMqtM0pVJ4uo_8";
 }

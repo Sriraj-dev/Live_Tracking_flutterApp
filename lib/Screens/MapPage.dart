@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:location/location.dart';
+import 'package:maps_sample/GoogleMapsApi.dart';
 import 'package:maps_sample/Screens/LoginPage.dart';
 import 'package:maps_sample/constants.dart';
 
@@ -34,7 +35,7 @@ class _MapScreenState extends State<MapScreen> {
   Set<Polyline> reqPolyline = Set<Polyline>();
   List<LatLng> polylineCoordinates = [];
   late PolylinePoints polylinePoints;
-  String googleApiKey = "AIzaSyC-8N7ESD9Z6kH5l2FjamMqtM0pVJ4uo_8";
+  String googleApiKey = GoogleMapsApi().apikey;
   //AIzaSyCbaELHR_jnHhd3FZTaTir38Bkb0Mrwpgo
   String distanceTravelled = '0m';
 
